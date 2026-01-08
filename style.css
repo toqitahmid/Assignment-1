@@ -6,7 +6,9 @@
     font-family: "Inter", sans-serif;
     font-weight: 300;
 }
-
+.container{
+    margin: 90px 180px;
+}
         /* button section */
 .btn{
     font-weight: 500;
@@ -79,4 +81,134 @@
     color:white;
     font-size: 20px;
     margin-top: 10px;
+}
+
+
+        /* feature section */
+
+#features-heading{
+    text-align: center;
+}
+#features-heading h2{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#features-heading p{
+    font-weight: 200;
+}
+#features{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+}
+#features img{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.features-item{
+    margin: 10px;
+    align-content: center;
+    height: 300px;
+    box-shadow: 1px 1px 5px wheat;
+}
+.features-item h3{
+    margin: 15px 0px;
+    font-weight: 550;
+}
+
+        /* solution section */
+
+#solution{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#sol{
+    color: #30B868;
+    font-weight: 500;
+}
+#solution h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.sol2{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+    margin: 5px 0px;
+}
+#list{
+    margin: 20px 0px;
+}
+#list li{
+    list-style: none;
+    margin-top: 5px;
+    font-weight: 300;
+}
+#list img{
+    margin-right: 5px;
+}
+
+        /* think section */
+
+#think{
+    height: 300px;
+    background-color: #F7F6F2;
+    text-align: center;
+    align-content: center;
+}
+#think h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#think #first-para{
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+#think #middle-para{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#think #last-para{
+    font-weight: 300;
+    margin: 20px 0px;
+}
+#arrow-get{
+    font-size: 20px;
+}
+
+        /* footer section */
+#footer{
+    background-color: rgb(4, 4, 57);
+}
+#footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-item p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+#footer-item a{
+    background-color: #F7F6F2;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.foot-item{
+    padding: 60px 0px;
+    align-content: center;
 }
