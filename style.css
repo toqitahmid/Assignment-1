@@ -33,7 +33,16 @@
     margin-top: 30px;
     margin-left: 10px;
 }
-
+.arrow-get{
+    padding: 9px 5px;
+    font-size: 15px;
+}
+#see{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+}
         /* nav section */
 
 #nav-section{
@@ -114,6 +123,7 @@
     align-content: center;
     height: 300px;
     box-shadow: 1px 1px 5px wheat;
+    border-radius: 10px;
 }
 .features-item h3{
     margin: 15px 0px;
@@ -162,6 +172,7 @@
     background-color: #F7F6F2;
     text-align: center;
     align-content: center;
+    border-radius: 10px;
 }
 #think h2{
     font-weight: 600;
@@ -180,9 +191,7 @@
     font-weight: 300;
     margin: 20px 0px;
 }
-#arrow-get{
-    font-size: 20px;
-}
+
 
         /* footer section */
 #footer{
