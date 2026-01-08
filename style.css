@@ -1,0 +1,82 @@
+        /* universal selectior */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+        /* button section */
+.btn{
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: #30B868;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#early-btn{
+    background-color: #FFFFFF;
+    color: #30B868;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+}
+.hero-btn{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+        /* nav section */
+
+#nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+}
+#nav-middle-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+        
+        /* header section */
+
+#hero-bg{
+
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-section{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#header-section h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+#header-section #h1{
+    color: white;
+}
+#header-section #h2{
+    color: #30B868;
+    margin-bottom: 20px;
+}
+#header-section p{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+}
